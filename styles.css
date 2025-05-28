@@ -28,6 +28,10 @@ h1 {
   color: #FFFFFF
 }
 
+p {
+  font-size: 32px;
+}
+
 footer {
   color: #FFFFFF;
   background-color: #DC4131;
