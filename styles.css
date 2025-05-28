@@ -62,6 +62,13 @@ h1 {
   color: #FFFFFF
 }
 
+h3 {
+  font-family: 'Frank Ruhl Libre';
+  font-size: 48px;
+  font-weight: lighter;
+  color: #FFFFFF
+}
+
 p {
   font-size: 32px;
 }
@@ -99,8 +106,15 @@ p {
 footer {
   color: #FFFFFF;
   background-color: #DC4131;
-  margin: 0;
+  margin-bottom: 70px;
 }
+
+h3.border-bottom {
+  padding-bottom: 20px;
+  border-bottom: solid 1px #ffffff;
+  margin-top: 41px;
+  margin-bottom: 52px;
+  }
 
 /* Form element reset */
 input,
@@ -144,5 +158,4 @@ form {
     justify-content: center;
     align-items: center;
     margin-top: 0;
-    margin-bottom: 139px;
   }
