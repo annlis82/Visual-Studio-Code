@@ -63,11 +63,25 @@ h1 {
   color: #FFFFFF
 }
 
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  color: #0B0A08;
+}
+
 h3 {
   font-family: 'Frank Ruhl Libre';
   font-size: 48px;
   font-weight: 300;
   color: #FFFFFF
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #0B0A08;
 }
 
 p {
@@ -87,6 +101,10 @@ p {
 
 
 /* Section 2 - Shop-Ask */
+#shop-ask {
+  background-color: #FFFFFF;
+}
+
 #shop-ask ul {
   display: flex;
   flex-wrap: wrap;
