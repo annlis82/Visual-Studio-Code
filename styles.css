@@ -26,6 +26,11 @@ button {
   margin-bottom: 90px;
   }
 
+button:hover {
+    background-color: #AE2E21 ; /* Darker red */
+    color: white;
+}
+
 /* Header */
 header {
   position: fixed;
@@ -100,13 +105,29 @@ p {
 /* Section 1 - Landscape */
 #landscape img {
   width: 100%;
-  }
+}
+
 
 #landscape h1 {
-    position: relative;
-    text-align: center;
-    color: #0B0A08;
-    }
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.vl {
+  border-left: 2px solid #FFFFFF;
+  height: 208px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+
+#landscape h2 {
+  text-align: center;
+  color: #FFFFFF;
+  width: 416px;
+  justify-content: center;
+}
 
 
 /* Section 2 - Shop-Ask */
