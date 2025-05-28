@@ -128,7 +128,8 @@ footer p {
   font-family: 'Frank Ruhl Libre';
   font-weight: Lighter;
   font-size: 24px;
-  margin-right: 
+  margin-right: 45px;
+  margin-bottom: 45px;
 }
 
 /* Form element reset */
@@ -176,18 +177,18 @@ form {
   }
 
 
-
 footer button {
   background-color: #FFFFFF;
-  color:#FFFFFF;
-  border: none;
+  color:#0B0A08;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
-  height: 18px;
+  border: none;
   border-radius: 8px;
   display: inline-flex;
   padding: 10px 16px;
-  margin-top: 44px;
+  margin-top: 24px;
+  margin-bottom: 45px;
   align-items: center;
-  justify-content: center;
-  width: 100%;
+  width: 459px;
+  height: 44px;
 }
