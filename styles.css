@@ -5,10 +5,7 @@ html {
 
 body {
   color: #0B0A08;
-  margin-top: 20px;
-  margin-left: 32px;
-  margin-right: 32px;
-       }
+}
 
 header {
   position: fixed;
@@ -19,7 +16,12 @@ header {
   background-color: #F7F2DE;
   padding-left: 32px;
   padding-right: 32px;
-      } 
+} 
+
+ul {
+  list-style: none;
+  padding: 0;
+}
        
 h1 {
   font-family: 'Frank Ruhl Libre';
@@ -32,7 +34,12 @@ p {
   font-size: 32px;
 }
 
+#landscape img {
+  width: 100%;
+  }
+
 footer {
   color: #FFFFFF;
   background-color: #DC4131;
+  margin: 0;
 }
