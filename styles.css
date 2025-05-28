@@ -71,6 +71,23 @@ p {
   width: 100%;
   }
 
+/* Section 2 - Shop-Ask */
+#shop-ask ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  }
+
+#shop-ask ul li {
+  width: 49%;
+  }
+
+#shop-ask img {
+  max-width: 100%;
+  }
+
+
 /* Footer */
 footer {
   color: #FFFFFF;
