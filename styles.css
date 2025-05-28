@@ -71,6 +71,21 @@ p {
   width: 100%;
   }
 
+.landscape {
+  position: relative;
+  text-align: center;
+  color: white;
+  }
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  
+
 /* Section 2 - Shop-Ask */
 #shop-ask ul {
   display: flex;
