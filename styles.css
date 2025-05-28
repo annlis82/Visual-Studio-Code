@@ -58,7 +58,7 @@ nav ul li {
 h1 {
   font-family: 'Frank Ruhl Libre';
   font-size: 200px;
-  font-weight: Light;
+  font-weight: lighter;
   color: #FFFFFF
 }
 
@@ -71,20 +71,12 @@ p {
   width: 100%;
   }
 
-.landscape {
-  position: relative;
-  text-align: center;
-  color: white;
-  }
+#landscape h1 {
+    position: relative;
+    text-align: center;
+    color: #0B0A08;
+    }
 
-/* Centered text */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  }
-  
 
 /* Section 2 - Shop-Ask */
 #shop-ask ul {
