@@ -6,12 +6,14 @@ html {
 body {
   background-color: #F7F2DE;
   color: #0B0A08;
-  font-family: 'Frank Ruhl Libre';font-size: 22px;
   margin-top: 20px;
   margin-left: 32px;
   margin-right: 32px;
        }
        
 h1 {
-  font-size: 40px;
+  font-family: 'Frank Ruhl Libre';
+  font-size: 200px;
+  font-weight: Light;
+  color: #FFFFFF
 }
