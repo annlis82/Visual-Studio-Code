@@ -103,6 +103,7 @@ p {
 /* Section 2 - Shop-Ask */
 #shop-ask {
   background-color: #FFFFFF;
+  text-align: center;
 }
 
 #shop-ask ul {
@@ -124,6 +125,26 @@ p {
   }
 
 /* Section 3 - Timeline */
+
+
+/* Section 4 - Popular */
+#popular ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  }
+
+#popular ul li {
+  width: 30%;
+  }
+
+#popular img {
+  max-width: 100%;
+  border-radius: 16px;
+  width: 454px;
+  height: 432px;
+  }
 
 
 /* Footer */
