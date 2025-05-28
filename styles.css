@@ -5,6 +5,7 @@ html {
 
 body {
   color: #0B0A08;
+  background-color: #F7F2DE;
 }
 
 /* Button */
@@ -65,7 +66,7 @@ h1 {
 h3 {
   font-family: 'Frank Ruhl Libre';
   font-size: 48px;
-  font-weight: lighter;
+  font-weight: 300;
   color: #FFFFFF
 }
 
@@ -104,19 +105,23 @@ p {
   height: 327px;
   }
 
+/* Section 3 - Timeline */
+
 
 /* Footer */
 footer {
   color: #FFFFFF;
   background-color: #DC4131;
-  margin-bottom: 70px;
 }
 
 h3.border-bottom {
   padding-bottom: 32px;
+  padding-top: 45px;
   border-bottom: solid 1px #ffffff;
   margin-top: 32px;
   margin-bottom: 45px;
+  margin-left: 45px;
+  margin-right: 45px;
   }
 
 footer h2 {
@@ -127,7 +132,7 @@ footer h2 {
 
 footer p {
   font-family: 'Frank Ruhl Libre';
-  font-weight: Lighter;
+  font-weight: 300;
   font-size: 24px;
   margin-left: 45px;
   margin-right: 1007px;
@@ -146,7 +151,6 @@ select {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 300;
   font-size: 16px;
-  margin: 0;
   padding: 16px;
   border: none;
   border-radius: 8px;
@@ -175,11 +179,11 @@ input:focus {
   }
 
 form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0;
+    justify-content: left;
+    align-items: left;
+    padding-bottom: 16px;
+    margin-left: 45px;
+    margin-bottom: 16px;
   }
 
 
@@ -193,7 +197,7 @@ footer button {
   border-radius: 8px;
   display: inline-flex;
   padding: 10px 16px;
-  margin-top: 24px;
+  margin-top: 16px;
   margin-bottom: 45px;
   align-items: center;
   width: 459px;
