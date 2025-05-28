@@ -26,6 +26,7 @@ button {
   margin-bottom: 90px;
   }
 
+/* Header */
 header {
   position: fixed;
   top: 0;
@@ -90,7 +91,10 @@ h4 {
 }
 
 p {
-  font-size: 32px;
+  font-family: 'Frank Ruhl Libre';
+  font-weight: 300;
+  font-size: 20px;
+  color: #0B0A08;
 }
 
 /* Section 1 - Landscape */
@@ -126,6 +130,7 @@ p {
   max-width: 100%;
   border-radius: 16px;
   margin-top: 45px;
+  margin-bottom: 45px;
   width: 448px;
   height: 327px;
   }
