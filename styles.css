@@ -107,7 +107,6 @@ p {
   width: 100%;
 }
 
-
 #landscape h1 {
   text-align: center;
   color: #FFFFFF;
@@ -119,7 +118,7 @@ p {
   position: absolute;
   left: 50%;
   margin-left: -3px;
-  top: 0;
+  top: 50%;
 }
 
 #landscape h2 {
@@ -155,6 +154,10 @@ p {
   width: 448px;
   height: 327px;
   }
+
+#shop-ask p {
+  width: 407px;
+}
 
 /* Section 3 - Timeline */
 
@@ -203,6 +206,7 @@ footer h2 {
 }
 
 footer p {
+  color: #FFFFFF;
   font-family: 'Frank Ruhl Libre';
   font-weight: 300;
   font-size: 24px;
