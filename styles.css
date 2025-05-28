@@ -22,7 +22,8 @@ ul {
   list-style: none;
   padding: 0;
 }
-       
+
+/* Typography */
 h1 {
   font-family: 'Frank Ruhl Libre';
   font-size: 200px;
@@ -34,10 +35,12 @@ p {
   font-size: 32px;
 }
 
+/* Section 1 - Landscape */
 #landscape img {
   width: 100%;
   }
 
+/* Footer */
 footer {
   color: #FFFFFF;
   background-color: #DC4131;
