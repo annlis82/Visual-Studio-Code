@@ -4,12 +4,22 @@ html {
 }
 
 body {
-  background-color: #F7F2DE;
   color: #0B0A08;
   margin-top: 20px;
   margin-left: 32px;
   margin-right: 32px;
        }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0px;
+  right: 0px;
+  height: 68px;
+  background-color: #F7F2DE;
+  padding-left: 32px;
+  padding-right: 32px;
+      } 
        
 h1 {
   font-family: 'Frank Ruhl Libre';
