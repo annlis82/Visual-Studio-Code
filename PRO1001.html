@@ -11,22 +11,36 @@
     
     <body>
     <header>
+      <p>FRAM</p>
       <nav>
         <ul>
           <li>PRODUCTS</li>
           <li>CHAT</li>  
         </ul>
-        <p>FRAM</p>
       </nav>   
     </header>
+    
+    <section id="landscape">
       <h1>FRAM</h1>
-      <img src="markus-spiske-WcLzVLbUP5g-unsplash-web.jpg"
+      <img src="markus-spiske-WcLzVLbUP5g-unsplash-web.jpg" alt="Picture of a georgeous landscape with blue sky, mountains and green fields">
+    </section>
 
       <footer>
         <p>FRAM</p>
         <hr>
-        <p>STAY UPDATED</p>
+        <h2 class="stayupdated"> STAY UPDATED</h2>
         <p>Sign up for our newsletter to be the first to know about new produce or other exciting news!</p>
+        <section id="stayupdated">
+          <div class="stay-updated">
+            <form id="contact-form">
+              <label for="first_name" class="sr-only">First name</label>
+                <input id="first_name" type="text" placeholder="First name"/>
+              <label for="email" class="sr-only">E-mail address</label> 
+              <input id="email" type="email" required placeholder="E-mail adress"/> 
+              <button id="contact_form_submit_button" type="submit">Send </button>
+            </form>
+          </div>
+          </section>
       </footer>
     </body>
 </HTML>
