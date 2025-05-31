@@ -227,6 +227,7 @@ p {
 }
 
 .step-content {
+  font-family: Arial, Helvetica, sans-serif;
   flex: 1;
 }
 
