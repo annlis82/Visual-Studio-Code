@@ -215,6 +215,17 @@ p {
   gap: 40px;
 }
 
+.step {
+  display: flex;
+  gap: 20px;
+}
+
+.step-title {
+  width: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-shrink: 0;
+}
+
 
 /* Section 4 - Popular */
 #popular {
