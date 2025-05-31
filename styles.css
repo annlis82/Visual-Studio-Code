@@ -200,6 +200,21 @@ p {
   padding: 40px 20px;
 }
 
+.left-panel {
+  flex: 1;
+  padding-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-panel {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
 
 /* Section 4 - Popular */
 #popular {
