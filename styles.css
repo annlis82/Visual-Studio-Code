@@ -5,7 +5,12 @@ html {
 
 body {
   color: #0B0A08;
-  background-color: #F7F2DE;
+  background-color: #FFFFFF;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
 }
 
 /* Button */
@@ -137,8 +142,6 @@ p {
 }
 
 /* Section 1 - Landscape */
-
-
 #landscape h1 {
   text-align: center;
   color: #FFFFFF;
@@ -195,17 +198,18 @@ p {
 /* Section 3 - Timeline */
 .container {
   display: flex;
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 40px 45px;
+  background-color: #F7F2DE;
 }
 
 .left-panel {
   flex: 1;
-  padding-right: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  width: 489px;
 }
 
 .right-panel {
@@ -221,13 +225,14 @@ p {
 }
 
 .step-title {
-  width: 200px;
+  width: 278px;
   font-family: Arial, Helvetica, sans-serif;
   flex-shrink: 0;
 }
 
 .step-content {
   font-family: Arial, Helvetica, sans-serif;
+  max-width: 414px;
   flex: 1;
 }
 
