@@ -195,11 +195,11 @@ p {
   margin: 0 auto;
 }
 
-/* Section 3 - Timeline */
+/* Section 3 - This is how it works */
 .container {
   display: flex;
   margin: 0 auto;
-  padding: 40px 45px;
+  padding: 45px 45px;
   background-color: #F7F2DE;
 }
 
