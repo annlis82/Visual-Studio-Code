@@ -55,7 +55,7 @@ header p {
 
 /* Navigation */
 #nav-container {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arimo", sans-serif;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -101,7 +101,7 @@ nav ul li {
 }
 
 .hero p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arimo", sans-serif;
   font-size: 36px;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -118,7 +118,7 @@ h1 {
 }
 
 h2 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arimo", sans-serif;
   font-size: 36px;
   font-weight: 200;
   margin-top: 96px;
@@ -134,7 +134,7 @@ h3 {
 }
 
 h4 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arimo", sans-serif;
   font-size: 20px;
   font-weight: 200;
   color: #0B0A08;
@@ -232,12 +232,12 @@ p {
 
 .step-title {
   width: 278px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arimo", sans-serif;
   flex-shrink: 0;
 }
 
 .step-content {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arimo", sans-serif;
   max-width: 414px;
   flex: 1;
 }
@@ -277,7 +277,7 @@ a {
   }
 
   #popular p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Arimo", sans-serif;
     font-size: 24px;
     margin-top: 18px;
     margin-bottom: 90px;
@@ -302,7 +302,7 @@ h3.border-bottom {
   }
 
 footer h2 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arimo", sans-serif;
   font-size: 36px;
   margin-left: 45px;
   color: #FFFFFF;
@@ -327,7 +327,7 @@ select {
   height: 44px;
   background-color: #FFFFFF;
   color:#0B0A08;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arimo", sans-serif;
   font-weight: 300;
   font-size: 16px;
   padding: 16px;
@@ -369,7 +369,7 @@ form {
 footer button {
   background-color: #FFFFFF;
   color:#0B0A08;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arimo", sans-serif;
   font-weight: 300;
   font-size: 16px;
   border: none;
