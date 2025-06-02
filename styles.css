@@ -288,7 +288,11 @@ a {
 footer {
   color: #FFFFFF;
   background-color: #DC4131;
-  height: 620px;
+  height: 650px;
+}
+
+footer h3 {
+  font-weight: 200;
 }
 
 h3.border-bottom {
@@ -314,13 +318,12 @@ footer p {
   font-size: 24px;
   font-weight: 200;
   margin-left: 45px;
-  margin-right: 1007px;
   margin-bottom: 45px;
+  max-width: 407px;
 }
 
 /* Form element reset */
 input,
-/*button,*/
 textarea,
 select {
   width: 460px;
@@ -358,16 +361,17 @@ input:focus {
   }
 
 form {
-    justify-content: left;
-    align-items: left;
-    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
     margin-left: 45px;
-    margin-bottom: 16px;
+    margin-bottom: 45px;
+    max-width: 460px;
   }
 
 
 footer button {
-  background-color: #FFFFFF;
+  background-color: #e1eaf0;
   color:#0B0A08;
   font-family: "Arimo", sans-serif;
   font-weight: 300;
@@ -376,8 +380,7 @@ footer button {
   border-radius: 8px;
   display: inline-flex;
   padding: 10px 16px;
-  margin-top: 16px;
-  margin-bottom: 45px;
+  margin-top: 12px;
   align-items: center;
   width: 459px;
   height: 44px;
