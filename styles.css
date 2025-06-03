@@ -124,6 +124,21 @@ nav ul li {
   transition: 0.4s;
 }
 
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
+}
+
+
 
 /* Typography */
 h1 {
