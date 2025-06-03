@@ -19,7 +19,7 @@ function () {
    if (email) {
     button.textContent = "sending";
     button.disabled = "true";
-    
+
     setTimeout (() => {
       button.setAttribute ("style", "display:none;");
 
@@ -31,3 +31,7 @@ function () {
     form.reset();
    });
 });
+
+function toggleMobileMenu(menu) {
+  menu.classList.toggle('open');
+}
