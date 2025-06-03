@@ -31,7 +31,3 @@ function () {
     form.reset();
    });
 });
-
-function toggleMobileMenu(menu) {
-  menu.classList.toggle('open');
-}
