@@ -1,4 +1,4 @@
-document.addEventListener(DOMContentLoaded), 
+document.addEventListener("DOMContentLoaded", 
 function () {
   const form = document.getElementById
   ("contact-form");
@@ -22,4 +22,12 @@ function () {
     button.disabled = "true";
     setTimeout (() => {
       button.setAttribute ("style", "display:none;");
-}
+
+      const el = document.createElement("p")
+      el.innerHTML = "Thank you! I have received your information!";
+      form.appendChild(el);
+    }, 3000);
+     } 
+    form.reset();
+   });
+});
