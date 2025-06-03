@@ -207,6 +207,8 @@ p {
   margin: 0 auto;
   padding: 45px 45px;
   background-color: #F7F2DE;
+  border-bottom: solid 1px #000000;
+  border-top: solid 1px #000000;
 }
 
 .left-panel {
@@ -223,6 +225,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  margin-left: 90px;
 }
 
 .step {
