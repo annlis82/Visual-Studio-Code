@@ -405,8 +405,13 @@ footer button {
 #produce ul {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
   width: 100%;
   gap: 29px;
+}
+
+#produce ul li {
+  width: 30%;
 }
 
 #produce img {
