@@ -16,4 +16,8 @@ function () {
 
    const email = document.getElementById
    ("email").value;
+
+   if (email) {
+    button.textContent = "sending";
+    button.disabled = "true";
 }
