@@ -463,6 +463,44 @@ p {
   margin: 0 auto;
 }
 
+.container {
+  flex-direction: column;
+  padding: 20px;
+  height: auto;
+}
+
+.left-panel {
+  width: 100%;
+  margin-left: 0px;
+  border-left: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.right-panel {
+  width: 100%;
+  margin-left: 0px;
+  border-left: none;
+}
+
+.step {
+  flex-direction: column;
+  height: auto;
+  align-items: flex-start;
+}
+
+.step-title {
+  width: 300px;
+  width: 100%;
+  padding-left: 0px;
+}
+
+.step-content {
+  max-width: 300px;
+  padding-left: 0px;
+}
+
 footer h2 {
   font-family: "Arimo", sans-serif;
   font-size: 24px;
