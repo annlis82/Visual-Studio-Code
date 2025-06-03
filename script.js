@@ -11,15 +11,15 @@ function () {
     function(event) {
       event.preventDefault();
 
-   const firstName = document.getElementById
-   ("first_name").value;
-
-   const email = document.getElementById
-   ("email").value;
+    const firstName = document.getElementById
+    ("first_name").value;
+    const email = document.getElementById
+    ("email").value;
 
    if (email) {
     button.textContent = "sending";
     button.disabled = "true";
+    
     setTimeout (() => {
       button.setAttribute ("style", "display:none;");
 
