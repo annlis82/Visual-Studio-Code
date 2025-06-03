@@ -138,6 +138,23 @@ nav ul li {
   transform: rotate(45deg) translate(-6px, -8px);
 }
 
+.open .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 57px;
+  height: 370px;
+  left: 0;
+  width: 100%;
+  background-color: #000;
+}
 
 
 /* Typography */
