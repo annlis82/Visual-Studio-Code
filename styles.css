@@ -251,6 +251,8 @@ a {
 /* Section 4 - Popular */
 #popular {
   background-color: #FFFFFF;
+  margin-left: 45px;
+  margin-right:45px;
 }
 
 #popular ul {
@@ -258,8 +260,6 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
-  margin-left: 45px;
-  margin-right:45px;
   gap: 29px;
   }
 
@@ -273,7 +273,6 @@ a {
   #popular h2 {
     padding-top: 90px;
     padding-bottom: 45px;
-    margin-left: 45px;
   }
 
   #popular p {
