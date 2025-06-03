@@ -45,6 +45,7 @@ header {
   background-color: #F7F2DE;
   padding-left: 32px;
   padding-right: 32px;
+  border-bottom: solid 1px #000000;
 } 
 
 header p {
