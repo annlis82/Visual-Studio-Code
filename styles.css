@@ -472,6 +472,7 @@ p {
 .left-panel {
   width: 100%;
   margin-left: 0px;
+  margin-bottom: 45px;
   border-left: none;
   align-items: center;
   justify-content: center;
@@ -493,12 +494,17 @@ p {
 .step-title {
   width: 300px;
   width: 100%;
-  padding-left: 0px;
+  padding-left: 45px;
+}
+
+.step-title h2 {
+  font-size: 18px;
 }
 
 .step-content {
   max-width: 300px;
-  padding-left: 0px;
+  padding-left: 45px;
+  padding-bottom: 90px;
 }
 
 footer h2 {
