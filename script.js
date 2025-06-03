@@ -20,4 +20,6 @@ function () {
    if (email) {
     button.textContent = "sending";
     button.disabled = "true";
+    setTimeout (() => {
+      button.setAttribute ("style", "display:none;");
 }
