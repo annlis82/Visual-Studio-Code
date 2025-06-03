@@ -406,6 +406,14 @@ footer button {
 }
 
 @media screen and (max-width: 700px){
+nav ul {
+  gap: 20px;
+}
+
+header p {
+  font-size: 32px;
+  font-weight: 200px;
+}
 
 /* Typography */
 h1 {
