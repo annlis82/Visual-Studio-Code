@@ -4,6 +4,8 @@
     <link rel="stylesheet" href="styles.css">
     <link href='https://fonts.googleapis.com/css?family=Frank Ruhl Libre' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet'>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>FRAM - Ann Lisbeth Mangseth</title>
            <meta charset="UTF-8">
            <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,11 +16,17 @@
     <header>
       <div class="navbar" id="nav-container">
       <nav>
-        <ul>
+        <ul class="mobile-menu">
+          <div id="hamburger-icon" >
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">    
           <li>PRODUCTS</li>
           <li>CHAT</li>
           <li>CHECKOUT</li>
         </ul>
+        </div>
       </nav>
       <p>FRAM</p>
       </div> 
