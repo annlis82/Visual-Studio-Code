@@ -156,6 +156,12 @@ nav ul li {
   background-color: #000;
 }
 
+.mobile-menu a {
+  color: #fff;
+  font-weight: 500px;
+  font-size: 30px;
+  }
+
 
 /* Typography */
 h1 {
