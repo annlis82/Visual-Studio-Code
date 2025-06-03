@@ -441,7 +441,6 @@ footer button {
   margin: 0 auto;
   padding-left: 45px; 
   padding-right: 45px;
-  padding-bottom: 0px;
   background-color: #F7F2DE;
   border-top: solid 1px #000000;
   height: 658px;
@@ -464,4 +463,10 @@ footer button {
   border-left: solid 1px #000000;
   height: 658px;
   width: 1009px;
+}
+
+#partners img {
+  width: 745px;
+  height: 478px;
+  margin: 90px 90px; 
 }
