@@ -442,8 +442,12 @@ p {
 footer h2 {
   font-family: "Arimo", sans-serif;
   font-size: 24px;
-  margin-left: 45px;
-  color: #FFFFFF;
+
+}
+
+h3.border-bottom {
+  padding-bottom: 32px;
+  padding-top: 32px;
 }
 
 footer p {
@@ -457,7 +461,14 @@ form {
   gap: 12px;
   margin-left: 45px;
   margin-bottom: 45px;
-  max-width: 329px;
+  width: 329px;
+}
+
+/* Contact form */
+input,
+textarea,
+select {
+  width: 329px;
 }
 
 footer button {
