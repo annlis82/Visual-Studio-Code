@@ -416,13 +416,13 @@ footer button {
   
 #produce h2 {
   margin-top: 90px;
-  margin-bottom: 45px;
+  margin-bottom: 30px;
 }
   
 #produce p {
   font-family: "Arimo", sans-serif;
-  font-size: 24px;
-  margin-top: 18px;
-  margin-bottom: 90px;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 45px;
   width: 591px;
 }
