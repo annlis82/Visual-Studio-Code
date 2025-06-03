@@ -6,4 +6,8 @@ function () {
   const button =
   document.getElementById
   ("contact_form_submit_button");
+
+  form.addEventListener ("submit",
+    function(event) {
+      event.preventDefault();
 }
