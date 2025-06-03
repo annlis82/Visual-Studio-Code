@@ -507,6 +507,10 @@ p {
   padding-bottom: 90px;
 }
 
+#popular {
+  margin-right: 0px;
+}
+
 #popular ul {
   display: flex;
   flex-wrap: nowrap;
@@ -515,8 +519,13 @@ p {
 }
 
 #popular img {
-  width: 250px;
+  min-width: 250px;
   height: 321px;
+}
+
+#popular ul li p {
+  font-size: 20px;
+  padding-bottom: 10px;
 }
 
 footer h2 {
