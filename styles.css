@@ -405,6 +405,67 @@ footer button {
   height: 44px;
 }
 
+@media screen and (max-width: 700px){
+
+/* Typography */
+h1 {
+  font-family: 'Frank Ruhl Libre';
+  font-size: 75px;
+  font-weight: 200;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-family: "Arimo", sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+  margin-top: 90px;
+  margin-bottom: 8px;
+  color: #0B0A08;
+}
+
+p {
+  font-family: 'Frank Ruhl Libre';
+  font-weight: 200;
+  font-size: 16px;
+  color: #0B0A08;
+}
+
+.hero p {
+  font-family: "Arimo", sans-serif;
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  color: white;
+}
+
+footer h2 {
+  font-family: "Arimo", sans-serif;
+  font-size: 24px;
+  margin-left: 45px;
+  color: #FFFFFF;
+}
+
+footer p {
+  font-size: 16px;
+  max-width: 279px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-left: 45px;
+  margin-bottom: 45px;
+  max-width: 329px;
+}
+
+footer button {
+  width: 329px;
+}
+
+}
+
 /* PRODUCT PAGE - product.html */
 /* Section 1 - Produce */
 
