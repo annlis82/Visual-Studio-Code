@@ -206,7 +206,7 @@ p {
 .container {
   display: flex;
   margin: 0 auto;
-  padding: 45px 45px;
+  padding: 0px 45px;
   background-color: #F7F2DE;
   border-bottom: solid 1px #000000;
   border-top: solid 1px #000000;
@@ -431,6 +431,31 @@ footer button {
 
 /* Section 2 - Partners, Map*/
 
-#partners {
+.container-product {
+  display: flex;
+  margin: 0 auto;
+  padding-left: 45px; 
+  padding-right: 45px;
+  background-color: #F7F2DE;
+  border-top: solid 1px #000000;
   height: 658px;
+}
+
+.left-panel-product {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 658px;
+}
+
+.right-panel-product {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  margin-left: 90px;
+  border-left: solid 1px #000000;
+  height: 658px;
+  width: 1009px;
 }
