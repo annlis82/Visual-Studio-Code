@@ -286,15 +286,12 @@ a {
     font-family: "Arimo", sans-serif;
     font-size: 24px;
     margin-top: 18px;
-    margin-bottom: 90px;
+    margin-bottom: 10px;
   }
 
-  .add-button button {
-    position: relative;
+  #popular button {
     width: 152px;
     height: 40px;
-    bottom: 20px;
-    right: 10px;
     background-color: black;
     color: white;
     font-size: 16px;
@@ -302,8 +299,8 @@ a {
     border: none;
     border-radius: 44px;
     cursor: pointer;
-    opacity: 0.70;
-    transition: opacity 0.3s ease;
+    margin-bottom: 30px;
+    margin-top: 10px;
   }
   
 
