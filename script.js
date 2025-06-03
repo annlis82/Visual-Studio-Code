@@ -10,4 +10,7 @@ function () {
   form.addEventListener ("submit",
     function(event) {
       event.preventDefault();
+
+   const firstName = document.getElementById
+   ("first_name").value;
 }
