@@ -27,7 +27,7 @@ button {
   align-items: center;
   justify-content: center;
   width: 320px;
-  height: 45px;
+  height: 44px;
   margin-bottom: 90px;
 }
 
@@ -437,6 +437,30 @@ p {
   letter-spacing: 1px;
   text-transform: lowercase;
   color: white;
+}
+
+#shop-ask ul {
+  display: flex;
+  flex-wrap: column;
+  justify-content: center;
+  width: 100%;
+}
+
+#shop-ask ul li {
+  width: 100%;
+}
+
+#shop-ask img {
+  margin-top: 44px;
+  margin-bottom: 44px;
+  margin-left: 16px;
+  width: 359px;
+  height: 250px;
+}
+
+#shop-ask p {
+  width: 307px;
+  margin: 0 auto;
 }
 
 footer h2 {
