@@ -109,60 +109,6 @@ nav ul li {
   color: white;
 }
 
-/* Hamburger menu*/
-#hamburger-icon {
-  margin: auto 0;
-  display: none;
-  cursor: pointer;
-}
-
-#hamburger-icon div {
-  width: 35px;
-  height: 3px;
-  background-color: white;
-  margin: 6px 0;
-  transition: 0.4s;
-}
-
-.open .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
-  transform: rotate(-45deg) translate(-6px, 6px);
-}
-
-.open .bar2 {
-  opacity: 0;
-}
-
-.open .bar3 {
-  -webkit-transform: rotate(45deg) translate(-6px, -8px);
-  transform: rotate(45deg) translate(-6px, -8px);
-}
-
-.open .mobile-menu {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-}
-
-.mobile-menu {
-  display: none;
-  position: absolute;
-  top: 57px;
-  height: 370px;
-  left: 0;
-  width: 100%;
-  background-color: #000;
-}
-
-.mobile-menu a {
-  color: #fff;
-  font-weight: 500px;
-  font-size: 30px;
-  }
-
-
 /* Typography */
 h1 {
   font-family: 'Frank Ruhl Libre';
