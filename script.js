@@ -13,4 +13,7 @@ function () {
 
    const firstName = document.getElementById
    ("first_name").value;
+
+   const email = document.getElementById
+   ("email").value;
 }
