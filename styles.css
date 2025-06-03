@@ -507,6 +507,18 @@ p {
   padding-bottom: 90px;
 }
 
+#popular ul {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  gap: 30px;
+}
+
+#popular img {
+  width: 250px;
+  height: 321px;
+}
+
 footer h2 {
   font-family: "Arimo", sans-serif;
   font-size: 24px;
