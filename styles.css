@@ -228,6 +228,7 @@ p {
   flex-direction: column;
   gap: 40px;
   margin-left: 90px;
+  border-left: solid 1px #000000;
 }
 
 .step {
@@ -241,6 +242,7 @@ p {
   width: 278px;
   font-family: "Arimo", sans-serif;
   flex-shrink: 0;
+  padding-left: 90px;
 }
 
 .step-content {
@@ -425,4 +427,10 @@ footer button {
   margin-top: 0px;
   margin-bottom: 45px;
   width: 591px;
+}
+
+/* Section 2 - Partners, Map*/
+
+#partners {
+  height: 658px;
 }
