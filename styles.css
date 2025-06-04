@@ -605,24 +605,13 @@ footer button {
 
 .left-panel-product,
 .right-panel-product {
-  flex: 1 1 100%;
+  flex: 1 1;
   text-align: center;
 }
 
-#partners h2 {
-  padding-bottom: 45px;
-  width: 100%;
-}
 
-.right-panel-product {
-  width: 100%;
-}
-
-#partners img{
-width: 100%;
-height: auto;
+#partners img {
 margin: 0 auto;
-display: block;
 }
 }
 
