@@ -405,12 +405,20 @@ footer button {
   height: 44px;
 }
 
+/* MEDIA SCREEN - INDEX.HTML AND PRODUCT.HTML */
+
 @media screen and (max-width: 700px){
-nav ul {
+nav {
+  margin-top: 10px;
+  padding-bottom: 30px;
+  }
+
+  nav ul {
   gap: 20px;
 }
 
 header p {
+  margin-top: 10px;
   font-size: 32px;
   font-weight: 200px;
 }
@@ -574,9 +582,8 @@ footer button {
 
 }
 
-/* PRODUCT PAGE - product.html */
+/* PRODUCT PAGE - PRODUCT.HTML */
 /* Section 1 - Produce */
-
 
 #produce {
   margin-left: 45px;
