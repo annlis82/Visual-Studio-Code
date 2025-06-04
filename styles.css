@@ -455,6 +455,11 @@ p {
   color: white;
 }
 
+#shop-ask {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
 #shop-ask ul {
   display: flex;
   flex-wrap: column;
@@ -469,7 +474,6 @@ p {
 #shop-ask img {
   margin-top: 44px;
   margin-bottom: 44px;
-  margin-left: 16px;
   width: 359px;
   height: 250px;
 }
@@ -578,6 +582,14 @@ select {
 
 footer button {
   width: 329px;
+}
+
+#produce p {
+  max-width: 345px;
+}
+
+#produce ul li {
+  min-width: 100%;
 }
 
 }
