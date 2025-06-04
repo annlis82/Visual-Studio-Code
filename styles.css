@@ -592,6 +592,30 @@ footer button {
   min-width: 100%;
 }
 
+.container-product {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  height: auto;
+}
+
+.container-product img {
+  width: 340px;
+  height: 459px;
+}
+
+.left-panel-product {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.right-panel-product {
+  
+}
+
 }
 
 /* PRODUCT PAGE - PRODUCT.HTML */
