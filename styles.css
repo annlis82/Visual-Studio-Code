@@ -588,6 +588,7 @@ footer button {
   width: 329px;
 }
 
+/* Produce */
 #produce p {
   max-width: 345px;
 }
@@ -596,18 +597,36 @@ footer button {
   min-width: 100%;
 }
 
+/* Partnering farms */
 .container-product {
   flex-direction: column;
   height: auto;
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
+}
+
+.left-panel-product,
+.right-panel-product {
+  flex: 1 1 100%;
+  text-align: center;
 }
 
 .container-product h2 {
   padding-bottom: 45px;
+  width: 100%;
 }
 
+.right-panel-product {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+
+#partners img{
+max-width: 100%;
+height: auto;
+margin: 0 auto;
+display: block;
+overflow-x: hidden;
+}
 }
 
 /* PRODUCT PAGE - PRODUCT.HTML */
@@ -667,12 +686,11 @@ footer button {
 /* Section 2 - Partners, Map*/
 .container-product {
   display: flex;
+  position: relative;
   margin: 0;
-  padding-left: 45px; 
-  padding-right: 45px;
   background-color: #F7F2DE;
   border-top: solid 1px #000000;
-  height: 658px;
+  height: auto;
 }
 
 .left-panel-product {
@@ -681,21 +699,21 @@ footer button {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 658px;
 }
 
 .right-panel-product {
   flex: 2;
   display: flex;
+  position: relative;
   flex-direction: column;
-  margin-left: 90px;
-  border-left: solid 1px #000000;
-  height: 658px;
-  width: 1009px;
+  width: 100%;
 }
 
 #partners img {
-  width: 745px;
-  height: 478px;
-  margin: 90px 90px; 
+  width: 100%;
+  height: auto;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  margin-right: 90px;
+  margin-left: 90px;
 }
