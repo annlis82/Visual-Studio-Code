@@ -609,23 +609,20 @@ footer button {
   text-align: center;
 }
 
-.container-product h2 {
+#partners h2 {
   padding-bottom: 45px;
   width: 100%;
 }
 
 .right-panel-product {
-  margin-left: 0;
-  margin-right: 0;
   width: 100%;
 }
 
 #partners img{
-max-width: 100%;
+width: 100%;
 height: auto;
 margin: 0 auto;
 display: block;
-overflow-x: hidden;
 }
 }
 
