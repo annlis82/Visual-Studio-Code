@@ -392,6 +392,10 @@ a {
 .product-name {
   margin-right: 220px; /* space between name and price */
 }
+
+.product-name p {
+  font-size: 24px;
+}
   
 
 /* Footer */
@@ -651,6 +655,14 @@ p {
   padding-bottom: 10px;
 }
 
+#popular h4 {
+  margin-top: 0px;
+}
+
+.product-name {
+  margin-right: 40px; /* space between name and price */
+}
+
 footer h2 {
   font-family: "Arimo", sans-serif;
   font-size: 24px;
@@ -694,6 +706,8 @@ footer button {
 #produce ul li {
   min-width: 100%;
 }
+
+
 
 /* Partnering farms */
 .container-product {
