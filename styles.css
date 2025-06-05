@@ -39,6 +39,11 @@ button:hover {
   color: white;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 /* Header */
 header {
   position: relative;
@@ -90,39 +95,12 @@ header {
   display: flex;
 }
 
-
-
 header p {
   text-align: center;
   justify-content: center;
   font-weight: 200px;
 }
 
-/* Navigation */
-#nav-container {
-  font-family: "Arimo", sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav a {
-  text-decoration: none;
-}
-
-nav ul {
-  display: flex;
-  gap: 60px;
-}
-
-nav ul li {
-  display: inline;
-}
 
 .hero {
   background-image: url('markus-spiske-WcLzVLbUP5g-unsplash-web.jpg');
