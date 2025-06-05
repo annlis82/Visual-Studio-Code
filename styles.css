@@ -471,6 +471,11 @@ header p {
   font-weight: 200px;
 }
 
+.menu {
+  width: 50%;
+}
+
+
 /* Typography */
 h1 {
   font-family: 'Frank Ruhl Libre';
