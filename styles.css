@@ -747,6 +747,7 @@ margin: 0 auto;
 }
 
 #produce img {
+  padding-top: 40px;
   max-width: 100%;
   border-radius: 16px;
   width: 454px;
@@ -755,14 +756,18 @@ margin: 0 auto;
   
 #produce h2 {
   margin-top: 90px;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
+}
+
+#produce h4 {
+  font-size: 20px;
 }
   
 #produce p {
   font-family: "Arimo", sans-serif;
   font-size: 20px;
-  margin-top: 0px;
-  margin-bottom: 45px;
+  margin-top: 14px;
+  margin-bottom: 14px;
   width: 591px;
 }
 
