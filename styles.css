@@ -68,6 +68,10 @@ header button:hover {
   color: #0B0A08;
 }
 
+.cart-button {
+  margin-bottom: 45px;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
