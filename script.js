@@ -9,3 +9,8 @@ function toggleMenu() {
     hamburger.setAttribute('aria-expanded', isOpen);
   }
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  const hamburger = document.querySelector('.hamburger');
+  hamburger?.addEventListener('click', toggleMenu);
+});
