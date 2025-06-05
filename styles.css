@@ -98,7 +98,7 @@ header {
 header p {
   text-align: center;
   justify-content: center;
-  font-weight: 200px;
+  font-weight: 200;
 }
 
 
@@ -446,7 +446,7 @@ nav {
 header p {
   margin-top: 10px;
   font-size: 32px;
-  font-weight: 200px;
+  font-weight: 200;
 }
 
 .menu {
@@ -543,7 +543,6 @@ p {
 }
 
 .step-title {
-  width: 300px;
   width: 100%;
   padding-left: 45px;
 }
@@ -582,7 +581,6 @@ p {
 footer h2 {
   font-family: "Arimo", sans-serif;
   font-size: 24px;
-
 }
 
 h3.border-bottom {
