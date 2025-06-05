@@ -747,7 +747,7 @@ margin: 0 auto;
 }
 
 #produce img {
-  padding-top: 40px;
+  margin-top: 40px;
   max-width: 100%;
   border-radius: 16px;
   width: 454px;
