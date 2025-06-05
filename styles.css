@@ -39,16 +39,24 @@ button:hover {
   color: white;
 }
 
+/* This is the checkout item in menu */
 .nav-button {
   background-color: none;
   color: #0B0A08;
-  padding: 10px 20px;
-  border-radius: 5px;
   font-family: "Arimo", sans-serif;
   font-size: 36px;
   text-decoration: none;
   position: absolute;
   top: 732px;
+}
+
+/* This is the checkout button in navigation */
+header button {
+  background-color: #008F51;
+  color: #0B0A08;
+  border-radius: 50px;
+  width: 47px;
+  height: 36px;
 }
 
 ul {
