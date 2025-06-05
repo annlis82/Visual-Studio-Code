@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<HTML lang="en">
+<html lang="en">
   <head>
     <link rel="stylesheet" href="styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Frank Ruhl Libre' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet'>
     <title>FRAM - Ann Lisbeth Mangseth</title>
            <meta charset="UTF-8">
@@ -11,19 +11,23 @@
     
     <body style="background-color: #F7F2DE;">
     <header>
-      <div class="navbar" id="nav-container">
-      <nav>
-        <ul>
-          <li><a href="product.html">PRODUCTS</a></li>
-          <li>CHAT</li>
-          <li>CHECKOUT</li>
-        </ul>
-      </nav>
-      <p>FRAM</p>
-      </div> 
+        <div class="hamburger" aria-controls="menu" aria-expanded="false" role="button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+    
+        <nav class="menu" id="menu" role="navigation">
+          <a href="product.html">PRODUCTS</a>
+          <a href="#">CHAT</a>
+          <a href="#">CHECKOUT</a>
+        </nav>
+        <div>
+          <h4>FRAM</h4>
+        </div>
     </header>
 
-
+<main>
   <section id="produce">
   <h2>PRODUCE</h2>
   <p>Explore our selection of seasonal produce, sourced directly from local farms to ensure peak freshness and quality. Every item is chosen with care, supporting sustainable practices and bringing the best of the harvest to your table</p>
@@ -61,7 +65,7 @@
     </div>
   </div>
 </section>
-
+</main>
 <footer>
   <h3 class="border-bottom">FRAM</h3>
   <h2>STAY UPDATED</h2>
@@ -79,4 +83,4 @@
     </section>
 </footer>
         </body>
-    </HTML>
+    </html>
