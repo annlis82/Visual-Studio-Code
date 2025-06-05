@@ -62,6 +62,9 @@ header {
   flex-direction: column;
   justify-content: center;
   gap: 5px;
+  width: 30px;
+  height: 25px;
+  z-index: 10;
 }
 
 .hamburger span {
@@ -69,8 +72,23 @@ header {
   width: 25px;
   background-color: #000000;
   display: block;
+  transition: all 0.3s ease;
 }
 
+/* Hamburger transform into X */
+.hamburger.open span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* Menu (hidden by default) */
 .menu {
   position: absolute;
   top: 60px;
@@ -91,6 +109,7 @@ header {
   font-size: 1.2rem;
 }
 
+/* Menu visible when open */
 .menu.open {
   display: flex;
 }
