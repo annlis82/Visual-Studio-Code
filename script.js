@@ -24,10 +24,15 @@ function () {
       button.setAttribute ("style", "display:none;");
 
       const el = document.createElement("p")
-      el.innerHTML = "Thank you! I have received your information!";
+      el.innerHTML = "Thank you for signing up to our newsletter";
       form.appendChild(el);
     }, 3000);
      } 
     form.reset();
    });
 });
+
+function toggleMenu() {
+  const menu = document.getElementById('menu');
+  menu.classList.toggle('open');
+}
