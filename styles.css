@@ -47,8 +47,7 @@ button:hover {
   font-family: "Arimo", sans-serif;
   font-size: 36px;
   text-decoration: none;
-  position: absolute;
-  top: 732px;
+  padding-top: 250px;
 }
 
 /* This is the checkout button in navigation */
