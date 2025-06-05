@@ -39,9 +39,25 @@ button:hover {
   color: white;
 }
 
+.nav-button {
+  background-color: none;
+  color: #0B0A08;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: "Arimo", sans-serif;
+  font-size: 36px;
+  text-decoration: none;
+  position: absolute;
+  top: 732px;
+}
+
 ul {
-  list-style: none;
+  list-style-type: none;
   padding: 0;
+}
+
+ul a {
+  list-style: none;
 }
 
 /* Header */
@@ -54,7 +70,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 1rem;
+  padding: 0 32px;
 } 
 
 header h4 {
@@ -78,7 +94,7 @@ header h4 {
 
 .hamburger span {
   height: 3px;
-  width: 25px;
+  width: 21px;
   background-color: #0B0A08;
   display: block;
   transition: all 0.3s ease;
@@ -465,14 +481,8 @@ nav {
   padding-bottom: 30px;
   }
 
-  nav ul {
-  gap: 20px;
-}
-
-header p {
-  margin-top: 10px;
-  font-size: 32px;
-  font-weight: 200;
+header {
+  padding: 0 16px;
 }
 
 .menu {
