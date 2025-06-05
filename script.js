@@ -14,3 +14,5 @@ document.addEventListener('DOMContentLoaded', () => {
   const hamburger = document.querySelector('.hamburger');
   hamburger?.addEventListener('click', toggleMenu);
 });
+
+console.log("JavaScript is connected!");
